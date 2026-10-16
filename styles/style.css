@@ -11,10 +11,10 @@
 
 .page {
   background-image: var(--gradient-grid);
-  background-size: 4px 4px, cover;
-  background-position: center, center;
-  background-attachment: fixed, fixed;
-  background-repeat: repeat, no-repeat;
+  background-size: 4px 4px, 4px 4px, cover;
+  background-position: center, center, center;
+  background-attachment: fixed, fixed, fixed;
+  background-repeat: repeat, repeat, no-repeat;
 }
 
 .container {

@@ -23,7 +23,20 @@
   --animation-fill-color: #FF0000;
 
 --gradient-grid:
-  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAArSURBVHgBrY0xDQAACMOAYGf+hUwQ/BzsgJ5NkzrJsoUwwT3IKQD470IGDdHdBBKMz9vDAAAAAElFTkSuQmCC'),
+  repeating-linear-gradient(
+    90deg,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  repeating-linear-gradient(
+    0deg,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
   linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
 
   --container-width: clamp(320px, 100%, 700px);
