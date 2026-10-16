@@ -1,1 +1,1 @@
-https://github.com/anhys/zakrivayuschiy-teg-fd
+https://anhys.github.io/zakrivayuschiy-teg-fd/
