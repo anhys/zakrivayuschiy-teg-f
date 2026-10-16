@@ -216,6 +216,11 @@
   padding: 15px 20px;
 }
 
+.button--position {
+  margin-block-start: var(--spacing-xlarge);
+  text-align: center;
+}
+
 .card__icon-button {
   display: inline-flex;
   justify-content: center;
@@ -240,11 +245,6 @@
 .card__like-button {
   min-inline-size: 130px;
   text-transform: capitalize;
-}
-
-.button--position {
-  margin-block-start: var(--spacing-xlarge);
-  text-align: center;
 }
 
 .modal {
