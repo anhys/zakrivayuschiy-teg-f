@@ -1,1 +1,1 @@
-https://anhys.github.io/zakrivayuschiy-teg-f/
+https://github.com/anhys/zakrivayuschiy-teg-f
