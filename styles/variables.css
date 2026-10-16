@@ -1,1 +1,59 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-accent: 'Press Start 2P', monospace;
+
+  --font-weight-normal: 400;
+  --font-weight-card-title: 785;
+
+  --font-size-base: 18px;
+  --font-size-card-title: 18px;
+  --font-size-accent-small: 14px;
+  --font-size-accent-large: clamp(34px, 13vw, 65px);
+  --font-size-subtitle: clamp(14px, 0.85vw + 10.8px, 23px);
+
+  --color-text: #000000;
+  --color-background: #FFFFFF;
+  --color-accent: #FF0000;
+  --color-border: #000000;
+  --color-shadow: #000000;
+  --label-stroke-color: #FFFFFF;
+
+  --contour-color: #000000;
+  --animation-fill-color: #FF0000;
+
+  --gradient-grid:
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  --container-width: clamp(320px, 100%, 700px);
+
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 25px;
+  --spacing-xlarge: 50px;
+  --spacing-actions: 12px;
+
+  --border-width: 2px;
+  --border-radius: 0px;
+  --shadow-button: 2px 2px 0px var(--color-shadow);
+
+  --transition-fast: 0.1s linear;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease-in-out;
+
+  --backdrop-color: rgba(0, 0, 0, 0.75);
+}
