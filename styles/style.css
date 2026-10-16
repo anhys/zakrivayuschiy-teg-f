@@ -10,11 +10,11 @@
 */
 
 .page {
-  background-image: url('../svg/background.svg'), var(--gradient-grid);
-  background-repeat: repeat, no-repeat;
+  background-image: var(--gradient-grid);
+  background-size: 4px 4px, cover;
   background-position: center, center;
-  background-size: auto, cover;
   background-attachment: fixed, fixed;
+  background-repeat: repeat, no-repeat;
 }
 
 .container {
@@ -299,28 +299,28 @@
   inline-size: 100%;
 }
 
-.card__image--prep     {
+.card__image--prep {
   filter: sepia(0.4) contrast(1.05) brightness(1.02);
 }
-.card__image--blank    {
+.card__image--blank {
   filter: grayscale(0.9) contrast(1.1);
 }
-.card__image--doubts   {
+.card__image--doubts {
   filter: saturate(0.5) contrast(1.15) brightness(0.95);
 }
-.card__image--perfect  {
+.card__image--perfect {
   filter: contrast(1.3) saturate(1.25);
 }
 .card__image--together {
   filter: sepia(0.25) saturate(1.35) brightness(1.05);
 }
-.card__image--hack     {
+.card__image--hack {
   filter: hue-rotate(25deg) saturate(1.3) contrast(1.1);
 }
 .card__image--burnout {
   filter: brightness(0.82) blur(1.5px);
 }
-.card__image--final    {
+.card__image--final {
   filter: saturate(1.45) contrast(1.2) brightness(1.15);
 }
 
